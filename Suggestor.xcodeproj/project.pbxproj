@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EC13FA1D1E136445877F4C9 /* Pods_Suggestor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61863BA917AA376F9400951 /* Pods_Suggestor.framework */; };
 		D62308CB1C7A8BA20089FD2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308CA1C7A8BA20089FD2A /* AppDelegate.swift */; };
 		D62308CD1C7A8BA20089FD2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308CC1C7A8BA20089FD2A /* ViewController.swift */; };
 		D62308D01C7A8BA20089FD2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62308CE1C7A8BA20089FD2A /* Main.storyboard */; };
 		D62308D21C7A8BA20089FD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D62308D11C7A8BA20089FD2A /* Assets.xcassets */; };
 		D62308D51C7A8BA20089FD2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D62308D31C7A8BA20089FD2A /* LaunchScreen.storyboard */; };
+		D62308E11C7A8C430089FD2A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308E01C7A8C430089FD2A /* Constants.swift */; };
+		D62308E41C7A8D200089FD2A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308E31C7A8D200089FD2A /* DataService.swift */; };
+		D62308E61C7A8D5C0089FD2A /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308E51C7A8D5C0089FD2A /* Suggestion.swift */; };
+		D62308E81C7A922F0089FD2A /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308E71C7A922F0089FD2A /* MaterialView.swift */; };
+		D62308EA1C7A940F0089FD2A /* SuggestionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308E91C7A940F0089FD2A /* SuggestionType.swift */; };
+		D62308EC1C7A98A70089FD2A /* RoundedUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308EB1C7A98A70089FD2A /* RoundedUIImageView.swift */; };
+		D62308EF1C7A9AB10089FD2A /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308ED1C7A9AB10089FD2A /* MaterialButton.swift */; };
+		D62308F01C7A9AB10089FD2A /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308EE1C7A9AB10089FD2A /* MaterialTextField.swift */; };
+		D62308F31C7A9B210089FD2A /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62308F21C7A9B210089FD2A /* Roboto-Regular.ttf */; };
+		D62308F51C7A9CD80089FD2A /* SuggestionTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308F41C7A9CD80089FD2A /* SuggestionTypeCell.swift */; };
+		D62308F71C7AA5870089FD2A /* SuggestionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62308F61C7AA5870089FD2A /* SuggestionResult.swift */; };
+		D6D47F501C7AD22200616AFD /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D47F4F1C7AD22200616AFD /* SearchVC.swift */; };
+		D6EC85251C7B6CB80007B756 /* SuggestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC85241C7B6CB80007B756 /* SuggestionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		254BA6B223677AE69698405D /* Pods-Suggestor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Suggestor.release.xcconfig"; path = "Pods/Target Support Files/Pods-Suggestor/Pods-Suggestor.release.xcconfig"; sourceTree = "<group>"; };
+		4F8F459C6F37EADD08CAE1F4 /* Pods-Suggestor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Suggestor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Suggestor/Pods-Suggestor.debug.xcconfig"; sourceTree = "<group>"; };
+		B61863BA917AA376F9400951 /* Pods_Suggestor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Suggestor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62308C71C7A8BA20089FD2A /* Suggestor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suggestor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62308CA1C7A8BA20089FD2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D62308CC1C7A8BA20089FD2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +39,19 @@
 		D62308D11C7A8BA20089FD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D62308D41C7A8BA20089FD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D62308D61C7A8BA20089FD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D62308E01C7A8C430089FD2A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D62308E31C7A8D200089FD2A /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		D62308E51C7A8D5C0089FD2A /* Suggestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		D62308E71C7A922F0089FD2A /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		D62308E91C7A940F0089FD2A /* SuggestionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionType.swift; sourceTree = "<group>"; };
+		D62308EB1C7A98A70089FD2A /* RoundedUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedUIImageView.swift; sourceTree = "<group>"; };
+		D62308ED1C7A9AB10089FD2A /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		D62308EE1C7A9AB10089FD2A /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		D62308F21C7A9B210089FD2A /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		D62308F41C7A9CD80089FD2A /* SuggestionTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionTypeCell.swift; sourceTree = "<group>"; };
+		D62308F61C7AA5870089FD2A /* SuggestionResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionResult.swift; sourceTree = "<group>"; };
+		D6D47F4F1C7AD22200616AFD /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		D6EC85241C7B6CB80007B756 /* SuggestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC13FA1D1E136445877F4C9 /* Pods_Suggestor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11CC5BA7EBBD83E780E36A45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B61863BA917AA376F9400951 /* Pods_Suggestor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58BA1ABC11E80E6DB05B0E36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F8F459C6F37EADD08CAE1F4 /* Pods-Suggestor.debug.xcconfig */,
+				254BA6B223677AE69698405D /* Pods-Suggestor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D62308BE1C7A8BA20089FD2A = {
 			isa = PBXGroup;
 			children = (
 				D62308C91C7A8BA20089FD2A /* Suggestor */,
 				D62308C81C7A8BA20089FD2A /* Products */,
+				58BA1ABC11E80E6DB05B0E36 /* Pods */,
+				11CC5BA7EBBD83E780E36A45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,75 @@
 		D62308C91C7A8BA20089FD2A /* Suggestor */ = {
 			isa = PBXGroup;
 			children = (
+				D62308E21C7A8CF50089FD2A /* Service */,
+				D62308DE1C7A8C070089FD2A /* Model */,
+				D62308DF1C7A8C0D0089FD2A /* View */,
+				D62308DD1C7A8BFC0089FD2A /* Controller */,
+				D62308DC1C7A8BF40089FD2A /* Util */,
+				D62308F11C7A9AED0089FD2A /* Resource */,
 				D62308CA1C7A8BA20089FD2A /* AppDelegate.swift */,
-				D62308CC1C7A8BA20089FD2A /* ViewController.swift */,
 				D62308CE1C7A8BA20089FD2A /* Main.storyboard */,
-				D62308D11C7A8BA20089FD2A /* Assets.xcassets */,
 				D62308D31C7A8BA20089FD2A /* LaunchScreen.storyboard */,
+				D62308D11C7A8BA20089FD2A /* Assets.xcassets */,
 				D62308D61C7A8BA20089FD2A /* Info.plist */,
 			);
 			path = Suggestor;
+			sourceTree = "<group>";
+		};
+		D62308DC1C7A8BF40089FD2A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D62308E01C7A8C430089FD2A /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		D62308DD1C7A8BFC0089FD2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D62308CC1C7A8BA20089FD2A /* ViewController.swift */,
+				D6D47F4F1C7AD22200616AFD /* SearchVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D62308DE1C7A8C070089FD2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D62308E51C7A8D5C0089FD2A /* Suggestion.swift */,
+				D62308E91C7A940F0089FD2A /* SuggestionType.swift */,
+				D62308F61C7AA5870089FD2A /* SuggestionResult.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D62308DF1C7A8C0D0089FD2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D62308E71C7A922F0089FD2A /* MaterialView.swift */,
+				D62308EB1C7A98A70089FD2A /* RoundedUIImageView.swift */,
+				D62308ED1C7A9AB10089FD2A /* MaterialButton.swift */,
+				D62308EE1C7A9AB10089FD2A /* MaterialTextField.swift */,
+				D62308F41C7A9CD80089FD2A /* SuggestionTypeCell.swift */,
+				D6EC85241C7B6CB80007B756 /* SuggestionCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D62308E21C7A8CF50089FD2A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D62308E31C7A8D200089FD2A /* DataService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		D62308F11C7A9AED0089FD2A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D62308F21C7A9B210089FD2A /* Roboto-Regular.ttf */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D62308D91C7A8BA20089FD2A /* Build configuration list for PBXNativeTarget "Suggestor" */;
 			buildPhases = (
+				308AC64EBC77F229366CDD72 /* Check Pods Manifest.lock */,
 				D62308C31C7A8BA20089FD2A /* Sources */,
 				D62308C41C7A8BA20089FD2A /* Frameworks */,
 				D62308C51C7A8BA20089FD2A /* Resources */,
+				7E8F85C13DCD546CFF8D1C45 /* Embed Pods Frameworks */,
+				BF3DAE4C29E0138645CB4C8E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,19 +238,80 @@
 			files = (
 				D62308D51C7A8BA20089FD2A /* LaunchScreen.storyboard in Resources */,
 				D62308D21C7A8BA20089FD2A /* Assets.xcassets in Resources */,
+				D62308F31C7A9B210089FD2A /* Roboto-Regular.ttf in Resources */,
 				D62308D01C7A8BA20089FD2A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		308AC64EBC77F229366CDD72 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E8F85C13DCD546CFF8D1C45 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Suggestor/Pods-Suggestor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF3DAE4C29E0138645CB4C8E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Suggestor/Pods-Suggestor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D62308C31C7A8BA20089FD2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62308EC1C7A98A70089FD2A /* RoundedUIImageView.swift in Sources */,
+				D62308EA1C7A940F0089FD2A /* SuggestionType.swift in Sources */,
+				D62308F01C7A9AB10089FD2A /* MaterialTextField.swift in Sources */,
+				D6EC85251C7B6CB80007B756 /* SuggestionCell.swift in Sources */,
 				D62308CD1C7A8BA20089FD2A /* ViewController.swift in Sources */,
 				D62308CB1C7A8BA20089FD2A /* AppDelegate.swift in Sources */,
+				D62308E11C7A8C430089FD2A /* Constants.swift in Sources */,
+				D62308EF1C7A9AB10089FD2A /* MaterialButton.swift in Sources */,
+				D62308F51C7A9CD80089FD2A /* SuggestionTypeCell.swift in Sources */,
+				D62308F71C7AA5870089FD2A /* SuggestionResult.swift in Sources */,
+				D62308E81C7A922F0089FD2A /* MaterialView.swift in Sources */,
+				D6D47F501C7AD22200616AFD /* SearchVC.swift in Sources */,
+				D62308E41C7A8D200089FD2A /* DataService.swift in Sources */,
+				D62308E61C7A8D5C0089FD2A /* Suggestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +422,7 @@
 		};
 		D62308DA1C7A8BA20089FD2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F8F459C6F37EADD08CAE1F4 /* Pods-Suggestor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Suggestor/Info.plist;
@@ -258,6 +434,7 @@
 		};
 		D62308DB1C7A8BA20089FD2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 254BA6B223677AE69698405D /* Pods-Suggestor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Suggestor/Info.plist;
@@ -286,6 +463,7 @@
 				D62308DB1C7A8BA20089FD2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
